@@ -84,7 +84,7 @@ def manual_testing(comment):
     new_xv_test = vectorization.transform(new_x_test)
     pred_nvbs = nvbs.predict(new_xv_test)
 
-    return print("\nPrediction: {}".format(output_lable(pred_nvbs[0])))
+    return print("Prediction: {}".format(output_lable(pred_nvbs[0])))
 
 comment = str(input())
 manual_testing(comment)
